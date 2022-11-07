@@ -1,0 +1,43 @@
+body{
+        width: 960px;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+}
+.menu{
+        background-color: black;
+        min-height: 50px;
+
+}
+.menu ul{}
+.menu ul li{
+        list-style-type: none;
+        float: left;
+}
+.menu ul li a{
+        text-decoration: none;
+        padding: 11px 15px ; display: block;
+        color: rgb(216, 212, 212);
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        transition: .3s all ease-in;
+
+}
+.menu ul li a:hover{
+        color: white;
+}
+.menu2{
+        float: left;
+
+}
+.float-right{
+        float: right;
+
+}
+.undrmnu_srch{padding-top:0; position:relative; margin-bottom:30px;margin-top:25px;margin-right:11px;}
+.undrmnu_srch input{ width:300px; height:35px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 10px; background:#fff; font:normal 14px Arial, Helvetica, sans-serif; color:#1F5A9D; margin-top:-5px }
+.undrmnu_srch input[type="submit"] { width:27px; height:27px; cursor:pointer; text-indent:-999999px; border:none;  background:url(images/srchIcon.png) no-repeat; position:absolute; right:13px; top:6px; }
+.menu{min-height:50px;background:#000;}
+.menu ul{}
+.menu ul li{list-style:none;float:left}
+.menu ul li a{text-decoration:none;padding:11px 15px;display:block;color:#afaaaa;font-family: 'Oswald', sans-serif;font-size:17px;
+transition:all 0.6s;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;}
